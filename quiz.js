@@ -15,3 +15,9 @@ if (userAnswer === correctAnswer) {
   }else{
   document.querySelector('feedback').textContent = "That's incorrect. Try again!."
 }
+
+document.getElementById("submit-answer").addEventListener("click" , ()=>{
+  checkAnswer()
+})
+
+
