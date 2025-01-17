@@ -5,7 +5,7 @@ function checkAnswer() {
   
 }
 
-const userAnswer = document.querySelector('input[name="quiz"]:checked');
+const userAnswer = document.querySelector('input[name="quiz"]:checked').value;
 console.log(userAnswer)
 
 
